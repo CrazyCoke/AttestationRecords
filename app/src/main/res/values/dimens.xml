@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pager_margin">-30</dimen>
+    <dimen name="mine_text_margin">15dp</dimen>
+    <dimen name="main_bottom_icon_width">25dp</dimen>
+    <dimen name="main_bottom_icon_height">25dp</dimen>
+    <dimen name="main_bottom_tv_size">12sp</dimen>
+    <dimen name="title_tv_size">18sp</dimen>
+</resources>

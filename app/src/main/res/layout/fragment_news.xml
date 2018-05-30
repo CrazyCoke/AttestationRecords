@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <LinearLayout
+            android:background="@color/white"
+            android:id="@+id/lly_news_title"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="58dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/tv_news"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:clickable="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:src="@drawable/icon_search_selector" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_below="@id/lly_news_title"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/color_line3" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/news_tablayout"
+            android:layout_below="@id/line1"
+            app:tabTextAppearance="@style/TabLayoutTextAppearance"
+            android:layout_width="match_parent"
+            app:tabIndicatorHeight="1dp"
+            app:tabIndicatorColor="@color/red"
+            android:layout_height="40dp"></android.support.design.widget.TabLayout>
+
+        <View
+            android:background="@color/color_line3"
+            android:layout_below="@id/news_tablayout"
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+
+        <android.support.v4.view.ViewPager
+            android:scrollbarSize="5dp"
+            android:id="@+id/news_viewpager"
+            android:layout_below="@id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+
+</LinearLayout>

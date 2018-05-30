@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:background="@color/color_line2"
+    tools:context="com.gdctwh.attestationrecords.acitvity.mine.SubscribeActivity">
+
+    <RelativeLayout
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="5dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/red" />
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订阅广场"
+            android:textColor="@color/tv_color"
+            android:textSize="@dimen/title_tv_size" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="热点新闻"
+            android:textColor="@color/tv_color"
+            android:textSize="@dimen/title_tv_size" />
+
+        <Button
+            android:id="@+id/subscribe_btn_hot"
+            android:textColor="@color/white"
+            android:text="订阅"
+            android:textSize="15sp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_btn"
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文化动态"
+            android:textColor="@color/tv_color"
+            android:textSize="@dimen/title_tv_size" />
+
+        <Button
+            android:id="@+id/subscribe_btn_culture"
+            android:textColor="@color/white"
+            android:text="订阅"
+            android:textSize="15sp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_btn"
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="鉴证新闻"
+            android:textColor="@color/tv_color"
+            android:textSize="@dimen/title_tv_size" />
+
+        <Button
+            android:id="@+id/subscribe_btn_attestation"
+            android:textColor="@color/white"
+            android:text="订阅"
+            android:textSize="15sp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_btn"
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收藏拍卖"
+            android:textColor="@color/tv_color"
+            android:textSize="@dimen/title_tv_size" />
+
+        <Button
+            android:id="@+id/subscribe_btn_collect"
+            android:textColor="@color/white"
+            android:text="订阅"
+            android:textSize="15sp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_btn"
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="名家专栏"
+            android:textColor="@color/tv_color"
+            android:textSize="@dimen/title_tv_size" />
+
+        <Button
+            android:id="@+id/subscribe_btn_famous"
+            android:textColor="@color/white"
+            android:text="订阅"
+            android:textSize="15sp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_btn"
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创图质询"
+            android:textColor="@color/tv_color"
+            android:textSize="@dimen/title_tv_size" />
+
+        <Button
+            android:id="@+id/subscribe_btn_ct"
+            android:textColor="@color/white"
+            android:text="订阅"
+            android:textSize="15sp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_btn"
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+    </RelativeLayout>
+</LinearLayout>

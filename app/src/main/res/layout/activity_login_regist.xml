@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.gdctwh.attestationrecords.acitvity.LoginAndRegistActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="@string/tv_login"
+            android:textColor="@drawable/tv_color_selector_main_bottom"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_regist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/tv_regist"
+            android:textColor="@drawable/tv_color_selector_main_bottom"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:visibility="invisible"
+            android:id="@+id/lly_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_account"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/shape_edite_text"
+                android:hint="@string/hint_phone_email"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/edt_psw"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/shape_edite_text"
+                android:hint="@string/hint_psw"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/selector_btn"
+                android:text="@string/tv_login"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_forget_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:text="忘记密码"
+                android:textColor="@color/red"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lly_regist"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_regist_phone"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape_edite_text"
+                android:hint="@string/hint_phone_email"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="13sp" />
+            <EditText
+                android:id="@+id/edt_regist_set_uname"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_edite_text"
+                android:hint="设置用户名"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edt_code"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/shape_edite_text"
+                    android:hint="@string/hint_code"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="13sp" />
+                <Button
+                    android:id="@+id/btn_get_code"
+                    android:background="@drawable/selector_btn"
+                    android:textSize="12sp"
+                    android:text="点击获取验证码"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/selector_btn"
+                android:text="@string/tv_next"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_user_clause"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/icon_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="77dp"
+                android:layout_marginTop="10dp"
+                android:text="用户服务条款"
+                android:textColor="@color/dark_grey"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/img_login_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_wechat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/icon_wechat" />
+
+        <ImageView
+            android:id="@+id/img_qq"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:src="@mipmap/icon_qq" />
+
+        <ImageView
+            android:id="@+id/img_weibo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:src="@mipmap/icon_weibo" />
+    </LinearLayout>
+</LinearLayout>

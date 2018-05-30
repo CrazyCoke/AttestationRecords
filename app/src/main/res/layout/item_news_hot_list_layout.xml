@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+
+        android:layout_alignParentTop="true"
+        android:background="@color/color_line3"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+    <ImageView
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="17dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/img_sample_hot"
+        android:id="@+id/img_hot"
+        android:layout_marginLeft="15dp"
+        android:layout_width="130dp"
+        android:layout_height="85dp" />
+    <TextView
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/tv_title"
+        android:textColor="@color/black"
+        android:text="文章标题"
+        android:layout_marginLeft="15sp"
+        android:layout_toRightOf="@id/img_hot"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_marginRight="15dp"
+        android:text="文章内容,文章内容，文  章内容，文章内容
+        ，文章内容，文章内容，文 章内容 ，文章内容， 文章内容  ，文章内容，
+        文章内容，文章内容，lkdjalskdjfalsdg"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/tv_title"
+        android:layout_toRightOf="@id/img_hot"
+        android:textSize="11sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/tv_hot_tag"
+        android:background="@drawable/shape_news_hot_tag"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/img_hot"
+        android:layout_below="@id/tv_content"
+        android:text="艺术"
+        android:textSize="10sp"
+        android:textColor="@color/red"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

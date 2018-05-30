@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.gdctwh.attestationrecords.acitvity.SubmitPswtActivity">
+
+
+    <EditText
+        android:id="@+id/edt_psw"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_edite_text"
+        android:hint="输入新密码"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/edt_check_psw"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_edite_text"
+        android:hint="确认新密码"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/selector_btn"
+        android:text="@string/tv_submit"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</LinearLayout>

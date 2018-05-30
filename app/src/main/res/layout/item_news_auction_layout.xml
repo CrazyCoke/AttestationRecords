@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@drawable/shape_attestation_news_img"
+    android:layout_margin="7dp"
+    android:elevation="5dp"
+    android:translationY="5dp"
+    android:translationZ="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@mipmap/timg1"
+        android:id="@+id/img_auction"
+
+        android:layout_width="match_parent"
+        android:layout_height="160dp" />
+    <TextView
+        android:id="@+id/tv_name"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:text="太极之印"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_ranking"
+        android:layout_marginLeft="5dp"
+        android:text="LOT 1"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_about"
+        android:text="亚洲二十世纪当代艺术"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/tv_color"
+        android:textSize="12sp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_create_time"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="一九九〇年作"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

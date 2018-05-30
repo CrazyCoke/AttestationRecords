@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">鉴证备案</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tv_news">资讯</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_authenticate">我要鉴证</string>
+    <string name="tv_art">艺术空间</string>
+    <string name="tv_mine">个人中心</string>
+    <string name="tv_hot">热点新闻</string>
+    <string name="tv_opinion">专家观点</string>
+    <string name="tv_auction">收藏拍卖</string>
+    <string name="tv_authenticate_news">鉴证新闻</string>
+    <string name="tv_login">登录</string>
+    <string name="tv_regist">注册</string>
+    <string name="hint_phone_email">手机号</string>
+    <string name="hint_psw">密码</string>
+    <string name="hint_code">输入验证码</string>
+    <string name="account_psw_cannot_empty">账号或密码不能为空</string>
+    <string name="tv_reset_psw">设置新密码</string>
+    <string name="tv_user_clause">"        "欢迎您注册成为Spischolar学术资源在线用户！请仔细阅读下面的协议。"\n"
+
+1、服务条款的确认和接纳
+Spischolar学术资源在线系统用户服务的所有权和运作权归湖南纬度信息科技有限公司所有。Spischolar学术资源在线所提供的服务将按照有关章程、服务条款和操作规则严格执行。用户通过注册程序勾选“我已经阅读并同意《用户服务条款》”
+        ，即表示用户与Spischolar学术资源在线达成协议并接受所有的服务条款。"\n"
+
+2、服务内容
+要成为系统服务用户必须：
+
+（1）自行配备上网的所需设备， 包括个人电脑、调制解调器或其他必备上网装置。
+（2）自行负担个人上网所支付的与此服务有关的电话费用、 网络费用。
+
+为提高系统服务信息服务的准确性，用户应同意：
+
+（1）提供详尽、准确的公司或个人资料。
+（2）不断更新注册资料，符合及时、详尽、准确的要求。
+
+本服务不公开用户的电子邮箱和笔名， 除以下情况外：
+
+（1）用户授权透露这些信息。
+（2）相应的法律及程序要求提供用户的个人资料。
+如果用户提供的资料包含有不正确的信息，本服务系统保留结束用户使用网络服务资格的权利。"\n"
+
+3、服务条款的修改和服务修订
+Spischolar学术资源在线有权在必要时修改服务条款，服务条款一旦发生变动，将会在相关页面上提示修改内容。如果不同意所改动的内容，用户可以主动取消获得的网络服务。
+        如果用户继续享用网络服务，则视为接受服务条款的变动。本服务系统保留随时修改或中断服务而不需知照用户的权利。本服务系统行使修改或中断服务的权利，不需对用户或第三方负责。"\n"
+
+4、用户隐私制度
+尊重用户个人隐私是Spischolar学术资源在线的 基本政策。Spischolar学术资源在线不会公开、编辑或透露用户的邮件内容，除非有法律许可要求，或Spischolar学术资源在线在诚信的基础上认为透露这些信件在以下三种情况是必要的：
+（1）遵守有关法律规定，遵从合法服务程序。
+（2）保持维护Spischolar学术资源在线的商标所有权。
+（3）在紧急情况下竭力维护用户个人和社会大众的隐私安全。
+（4）符合其他相关的要求。
+    </string>
+    <string name="title_reset_psw">重设密码</string>
+    <string name="title_user_clause">用户服务条款</string>
+    <string name="tv_next">下一步</string>
+    <string name="tv_submit">提交</string>
+    <string name="tv_set_psw">设置密码</string>
+    <string name="tv_logout">退出登录</string>
+    <string name="tv_pull_up_loading_more">上拉加载更多</string>
+    <string name="tv_no_more">没有更多了，去其他栏目看看。</string>
+    <string name="is_loading">正在加载...</string>
+    <string name="title_back">返回</string>
+    <string name="data_error">数据错误！</string>
+    <string name="set_text_size">字体大小</string>
+    <string name="little">小</string>
+    <string name="medium">中</string>
+    <string name="most_big">特大</string>
+    <string name="big">大</string>
+    <string name="comment">评论</string>
+    <string name="et_comment">写评论</string>
+    <string name="get_data_error">获取数据失败！</string>
+    <string name="culture_news">文化动态</string>
+    <string name="title_store_up">收藏</string>
+    <string name="title_setting">设置</string>
+    <string name="title_dynamic">动态</string>
+    <string name="title_authenticate">鉴证</string>
+    <string name="title_subscribe">订阅</string>
+    <string name="title_collect">征集</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_setting">设置</string>
+    <string name="title_login_regist">注册登录</string>
+    <string name="cancel">取消</string>
+    <string name="title_vr">VR全景图</string>
+</resources>

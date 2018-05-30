@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:background="@color/white"
+            android:id="@+id/art_title"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:gravity="center"
+            android:text="@string/tv_art"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+        <View
+            android:id="@+id/line1"
+            android:layout_below="@id/art_title"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/color_line3" />
+
+        <android.support.v7.widget.RecyclerView
+            android:paddingTop="3dp"
+            android:background="@color/color_line3"
+            android:id="@+id/art_recyclerview"
+            android:layout_below="@id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+</FrameLayout>

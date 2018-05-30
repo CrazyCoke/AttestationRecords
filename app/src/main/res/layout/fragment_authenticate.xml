@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.gdctwh.attestationrecords.fragment.main.AuthenticateFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+    <TextView
+        android:id="@+id/authenticate_title"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/tv_authenticate"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+
+    <View
+        android:id="@+id/line1"
+        android:layout_below="@id/authenticate_title"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/color_line3" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="42dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <WebView
+           android:id="@+id/web_view"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+       </WebView>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.gdctwh.attestationrecords.fragment.main.MineFragment">
+
+
+
+            <TextView
+                android:background="@color/white"
+                android:id="@+id/mine_title"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:gravity="center"
+                android:text="@string/tv_mine"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/mine_title"
+                android:background="@color/color_line3" />
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@id/line1"
+                android:background="@color/color_line1" />
+
+    <ScrollView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+         <com.makeramen.roundedimageview.RoundedImageView
+             android:id="@+id/img_head"
+             android:layout_marginTop="10dp"
+             app:riv_border_width="2dp"
+             app:riv_border_color="@color/color_line4"
+             android:layout_centerHorizontal="true"
+             android:src="@mipmap/img_default_head"
+             app:riv_oval="true"
+             android:layout_width="80dp"
+             android:layout_height="80dp" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:id="@+id/tv_mine_uname"
+                android:textSize="20sp"
+                android:text="用户名"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <View
+                android:layout_marginTop="15dp"
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@id/tv_mine_uname"
+                android:background="@color/color_line1" />
+
+            <LinearLayout
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="vertical"
+                android:layout_marginTop="140dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_mine_dynamic"
+                    android:gravity="center_vertical"
+                    android:text="动态"
+                    android:textSize="16sp"
+                    android:layout_margin="@dimen/mine_text_margin"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@mipmap/icon_dynamic"
+                    android:drawableRight="@mipmap/icon_right_arrows"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#F1F1F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <TextView
+                    android:id="@+id/tv_mine_authenticate"
+                    android:gravity="center_vertical"
+                    android:text="鉴证"
+                    android:textSize="16sp"
+                    android:layout_margin="@dimen/mine_text_margin"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@mipmap/icon_mine_authenticat"
+                    android:drawableRight="@mipmap/icon_right_arrows"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#F1F1F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <TextView
+                    android:id="@+id/tv_mine_collect"
+                    android:gravity="center_vertical"
+                    android:text="征集"
+                    android:textSize="16sp"
+                    android:layout_margin="@dimen/mine_text_margin"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@mipmap/icon_mine_collect"
+                    android:drawableRight="@mipmap/icon_right_arrows"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#F1F1F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <TextView
+                    android:id="@+id/tv_mine_subscribe"
+                    android:gravity="center_vertical"
+                    android:text="订阅"
+                    android:textSize="16sp"
+                    android:layout_margin="@dimen/mine_text_margin"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@mipmap/icon_mine_subscribe"
+                    android:drawableRight="@mipmap/icon_right_arrows"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#F1F1F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <TextView
+                    android:id="@+id/tv_mine_storeup"
+                    android:gravity="center_vertical"
+                    android:text="收藏"
+                    android:textSize="16sp"
+                    android:layout_margin="@dimen/mine_text_margin"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@mipmap/icon_mine_storeup"
+                    android:drawableRight="@mipmap/icon_right_arrows"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#F1F1F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <TextView
+                    android:id="@+id/tv_mine_setting"
+                    android:gravity="center_vertical"
+                    android:text="设置"
+                    android:textSize="16sp"
+                    android:layout_margin="@dimen/mine_text_margin"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@mipmap/icon_mine_setting"
+                    android:drawableRight="@mipmap/icon_right_arrows"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#F1F1F1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/btn_logout"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/selector_btn"
+                    android:text="@string/tv_logout"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
